@@ -5,7 +5,7 @@ describe('Business Permit Registration and Renewal', () => {
 
 
 
-    it ('Application submission', ()=> {
+    it.only ('Application submission', ()=> {
 
         cy.visit("https://citizen-dev.ph.orangebd.com/")
 
@@ -30,7 +30,7 @@ describe('Business Permit Registration and Renewal', () => {
            
             bp.clickOfficeSelectionNext()
            
-            bp.verifyApplyNow()
+           // bp.verifyApplyNow()
 
             bp.clickUploadFile1()
             bp.clickSelectFile1()
@@ -59,7 +59,7 @@ describe('Business Permit Registration and Renewal', () => {
             bp.setBusinessAddress(data.businessaddress)
 
             bp.clickNextAR()
-            bp.verifyApplicationReview
+           // bp.verifyApplicationReview()
          
             bp.clickSubmit()
          

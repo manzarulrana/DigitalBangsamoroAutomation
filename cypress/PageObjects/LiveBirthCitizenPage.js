@@ -48,26 +48,26 @@ class LiveBirthCitizen
             txtChildFirstName = ":nth-child(2) > .grid > :nth-child(1) > .block > .text_input_block > .input_box > input"
             txtChildMidledName = ":nth-child(2) > .grid > :nth-child(2) > .block > .text_input_block > .input_box > input"
             txtChildLastName = ":nth-child(2) > .grid > :nth-child(3) > .block > .text_input_block > .input_box > input"
-            ddChildSex = ":nth-child(1) > .block > .select_box_block > .input_box > select"
+            ddChildSex = ":nth-child(3) > .grid > :nth-child(1) > .block > .select_box_block > .input_box > select"
             txtHospital = ":nth-child(4) > .grid-cols-12 > .col-span-4 > .block > .text_input_block > .input_box > input"
             ddProvince =  ":nth-child(4) > .grid-cols-12 > .col-span-8 > .block > .select_box_block > .grid > :nth-child(1) > .input_box > select"
             ddMunicipality = ":nth-child(4) > .grid-cols-12 > .col-span-8 > .block > .select_box_block > .grid > .municipality_dropdown > .input_box > select"
             ddBarangay  = ":nth-child(4) > .grid-cols-12 > .col-span-8 > .block > .select_box_block > .grid > :nth-child(3) > .input_box > select"
             txtBirthType = ":nth-child(5) > .grid > :nth-child(1) > .block > .text_input_block > .input_box > input"
             txtTotalChild = ":nth-child(5) > .grid > :nth-child(2) > .block > .number_input_block > .input_box > input"
-            txtBirthOrder = ":nth-child(5) > .grid > :nth-child(3) > .block > .text_input_block > .input_box > input"
+            txtBirthOrder = ":nth-child(5) > .grid > :nth-child(3) > .block > .number_input_block > .input_box > input"
             txtWeight = ":nth-child(5) > .grid > :nth-child(4) > .block > .number_input_block > .input_box > input"
 
 
             txtMotherFirstName = ":nth-child(7) > .grid > :nth-child(2) > .block > .text_input_block > .input_box > input"
             txtMotherMidleName = ":nth-child(7) > .grid > :nth-child(3) > .block > .text_input_block > .input_box > input"
             txtMotherLastName = ":nth-child(4) > .block > .text_input_block > .input_box > input"
-            txtMotherCitizen = ":nth-child(8) > .grid > :nth-child(1) > .block > .text_input_block > .input_box > input"
+            txtMotherCitizen = ":nth-child(8) > .grid > :nth-child(1) > .block > .select_box_block > .input_box > select"
 
             txtFatherFirstName = ":nth-child(13) > .grid > :nth-child(1) > .block > .text_input_block > .input_box > input"
             txtFatherMidleName = ":nth-child(13) > .grid > :nth-child(2) > .block > .text_input_block > .input_box > input"
             txtFatherLastName = ":nth-child(13) > .grid > :nth-child(3) > .block > .text_input_block > .input_box > input"
-            txtFatherCitizen = ":nth-child(14) > .grid > :nth-child(1) > .block > .text_input_block > .input_box > input"
+            txtFatherCitizen = ":nth-child(14) > .grid > :nth-child(1) > .block > .select_box_block > .input_box > select"
             
             btnNurse = ".flex-wrap > :nth-child(2) > input"
             
@@ -77,9 +77,9 @@ class LiveBirthCitizen
             lblAR = ".px-3 > span"
 
             btnNextPS = ".next_btn"
-            lblPS = ".pl-3 > :nth-child(1) > span"
+            lblPS = ".pl-3 > :nth-child(1) > span" 
 
-            btnPaymentSlip = ".pl-3 > .flex-row > span"
+            btnPaymentSlip = ".pl-3 > .flex-row"
             btnSubmit = ".inline"
             lblSuccess = ".flex-col > .block"
 

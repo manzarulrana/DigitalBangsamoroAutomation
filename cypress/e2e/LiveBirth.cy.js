@@ -61,11 +61,13 @@ describe('Certificate of Live Birth', () => {
             lb.setChildFirstName(data.ChildFirstName)
             lb.setChildMidledName(data.ChildMidledName)
             lb.setChildLastName(data.ChildLastName)
+            cy.wait(3000)
             lb.setChildSex(data.ChildSex)
             lb.setHospital(data.Hospital)
             lb.setProvince(data.Province)
             lb.setMunicipality(data.Municipality)
             lb.setBarangay(data.Barangay)
+            cy.wait(3000)
             lb.setBirthType(data.BirthType)
             lb.setTotalChild(data.TotalChild)
             lb.setBirthOrder(data.BirthOrder)
@@ -75,11 +77,13 @@ describe('Certificate of Live Birth', () => {
             lb.setMotherFirstName(data.MotherFirstName)
             lb.setMotherMidleName(data.MotherMidleName)
             lb.setMotherLastName(data.MotherLastName)
+            cy.wait(3000)
             lb.setMotherCitizen(data.MotherCitizen)
 
             lb.setFatherFirstName(data.FatherFirstName)
             lb.setFatherMidleName(data.FatherMidleName)
             lb.setFatherLastName(data.FatherLastName)
+            cy.wait(3000)
             lb.setFatherCitizen(data.FatherCitizen)
             lb.clickNurse()
 
@@ -92,10 +96,10 @@ describe('Certificate of Live Birth', () => {
 
             lb.clickNextPS()
 
-           // lb.clickUploadPaymentSlip()
+          //  lb.clickUploadPaymentSlip()
 
-        //    lb.clickSubmit()
-         //   lb.verifySubmit()
+          //  lb.clickSubmit()
+          //  lb.verifySubmit()
 
 
 
