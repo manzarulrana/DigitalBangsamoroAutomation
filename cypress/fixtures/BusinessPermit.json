@@ -1,0 +1,21 @@
+
+
+{
+    "service" : "Business Permit Registration and Renewal",
+    "username": "01795914141",
+    "password": "Rana123#",
+    "applicationtype" : "New",
+    "paymentmode" : "Quarterly",
+    "ownership" : "Corporation",
+    "midlename" : "Hasan",
+    "businessaddress" : "Uttara",
+    "officerid1" : "mamanoaima@gmail.com",
+    "officerid2" : "sultan@test.com",
+    "officerid3" : "pansar@test.com",
+    "officerpassword" : "superadmin",
+    "paymentamount" : "10",
+    "issuedate" : "01012023",
+    "validdate" : "31122023",
+    "or" : "123",
+    "note" : "This is test note"
+}
